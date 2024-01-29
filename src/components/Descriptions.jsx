@@ -20,7 +20,7 @@ const Descriptions = () => {
         <Container fluid>
           <Row className="flex-row justify-center">
             <Col xs={12} md={4} className="mb-4">
-              <Card border="primary">
+              <Card className="border-2" border="primary">
                 <Card.Header className="flex justify-center bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Descriptions = () => {
             </Col>
 
             <Col xs={12} md={4} className="mb-4">
-              <Card border="secondary">
+              <Card className="border-2" border="secondary">
                 <Card.Header className="flex justify-center bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ const Descriptions = () => {
             </Col>
 
             <Col xs={12} md={4} className="mb-4">
-              <Card border="success">
+              <Card className="border-2" border="success">
                 <Card.Header className="flex justify-center bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const Descriptions = () => {
             </Col>
 
             <Col xs={12} md={4} className="mb-4">
-              <Card border="danger">
+              <Card className="border-2" border="danger">
                 <Card.Header className="flex justify-center bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ const Descriptions = () => {
             </Col>
 
             <Col xs={12} md={4} className="mb-4">
-              <Card border="warning">
+              <Card className="border-2" border="warning">
                 <Card.Header className="flex justify-center bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
