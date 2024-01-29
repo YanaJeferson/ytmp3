@@ -13,12 +13,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-<>
-<NavHeader></NavHeader>
-<FormsInput></FormsInput>
-<Descriptions></Descriptions>
-<Footer></Footer>
-</>
+    <>
+      <div className="">
+        <NavHeader></NavHeader>
+        <FormsInput></FormsInput>
+        <Descriptions></Descriptions>
+        <Footer></Footer>
+      </div>
+    </>
   );
 }
 
