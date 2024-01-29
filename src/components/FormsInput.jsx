@@ -53,7 +53,7 @@ const FormsInput = () => {
         }
 
         const downloadLink = document.createElement("a");
-        downloadLink.href = `http://localhost:3000/download${downloadType}/${id}`;
+        downloadLink.href = `http://143.198.78.133:3000/download${downloadType}/${id}`;
         downloadLink.download = `${id}.${formato}`;
 
         document.body.appendChild(downloadLink);
