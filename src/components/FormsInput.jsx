@@ -53,7 +53,7 @@ const FormsInput = () => {
         }
 
         const downloadLink = document.createElement("a");
-        downloadLink.href = `https://143.198.78.133:8443/download${downloadType}/${id}`;
+        downloadLink.href = `https://mp3yt.tech:3001/download${downloadType}/${id}`;
         downloadLink.download = `${id}.${formato}`;
 
         document.body.appendChild(downloadLink);
